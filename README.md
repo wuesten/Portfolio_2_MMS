@@ -4,7 +4,7 @@
 
 ### 1. Abstract
 
-This paper deals with the customer segmentation of an online shop. The data set [1] contains all the transactions occurring for a UK-based and registered, non-store online retail between 01/12/2009 and 09/12/2011.The company mainly sells unique all-occasion gift-ware. Many customers of the company are wholesalers. The first step was a general data exploration, looking at when products are bought, which country has the most customers, how many product are returned, and a product analysis. New features were created from the findings of the data exploration using the RFM (Recency, Frequency, Monetary) method. For the subsequent customer segmentation, a data model was created that distinguishes customer types based on characteristics. Based on the new features created by RFM, various methods of clustering were carried out and evaluated using the Silhouette score. <br>
+This paper deals with the customer segmentation of an online shop. The data set [[1]](#100) contains all the transactions occurring for a UK-based and registered, non-store online retail between 01/12/2009 and 09/12/2011.The company mainly sells unique all-occasion gift-ware. Many customers of the company are wholesalers. The first step was a general data exploration, looking at when products are bought, which country has the most customers, how many product are returned, and a product analysis. New features were created from the findings of the data exploration using the RFM (Recency, Frequency, Monetary) method. For the subsequent customer segmentation, a data model was created that distinguishes customer types based on characteristics. Based on the new features created by RFM, various methods of clustering were carried out and evaluated using the Silhouette score. <br>
 
 ### 2. Introduction
 In today's world, companies are increasingly competing through globalisation. Companies need to have clear strategies to retain their existing customers. To do this, it is imperative to know the different types of customers. For successful implementation, it is imperative to pursue an individual marketing strategy for each type of customer. <br>
@@ -90,7 +90,7 @@ The distribution of customer segments clearly shows that two thirds of the custo
 
 ### 7. References
 
-[1]     Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [https://archive.ics.uci.edu/ml/datasets/Online+Retail+II](https://archive.ics.uci.edu/ml/datasets/Online+Retail+II) <br> Irvine, CA: University of California, School of Information and Computer Science <br>
+[1]<a id='100'></a>       Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [https://archive.ics.uci.edu/ml/datasets/Online+Retail+II](https://archive.ics.uci.edu/ml/datasets/Online+Retail+II) <br> Irvine, CA: University of California, School of Information and Computer Science <br>
 [2]     Maryani, Ina, et al. "Customer segmentation based on RFM model and clustering techniques with K-means algorithm." 2018 Third International Conference on Informatics and        Computing (ICIC). IEEE, 2018. <br>
 [3]     Shirole, Rahul, Laxmiputra Salokhe, and Saraswati Jadhav. "Customer Segmentation using RFM Model and K-Means Clustering." (2021). <br>
 
